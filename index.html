@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="overflow-x-hidden">
+<html class="">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,8 @@
     <div class="container">
         <div class="flex items-center justify-between relative">
             <div class="px-4">
-                <a href="#home" class="font-bold text-lg font-sans block py-2"> Rere</a>
+                <a href="#home" class="font-bold text-lg font-sans block py-2"> <img src="assets/logo.png" alt="logo"
+                        width="35px"></a>
             </div>
             <div class="flex items-center px-4">
                 <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -30,8 +31,7 @@
                             <a href="#about" class="text-blue-500 py-3 mx-8 flex lg:text-neutral-600">About</a>
                         </li>
                         <li class="group">
-                            <a href="#Portofolio"
-                                class="text-blue-500 py-3 mx-8 flex lg:text-neutral-600">Portofolio</a>
+                            <a href="#projekt" class="text-blue-500 py-3 mx-8 flex lg:text-neutral-600">Portofolio</a>
                         </li>
                     </ul>
                 </nav>
@@ -56,17 +56,18 @@
                     <h2 class="font-thin text-xl md:text-3xl">Front-End Web Developer & UI/UX Designer</h2>
                     <br>
                 </div>
-                <div class="w-full self-end px-4 md:w-1/2 md:right-0">
+                <div class="w-full self-end px-4 sm:w-1/2 md:right-0">
                     <div class="relative mt-10  sm:right-0">
-                        <img class="mx-auto max-w-full sm:scale-100" width="350" src="assets/Fotoporto.png"
-                            alt="Raihan">
-                        <span class="absolute -bottom-24 -z-10 left-1/2 -translate-x-1/2 -my-36 mx-auto">
+                        <img class="mx-auto max-w-full sm:scale-100 sm:w-3/4 md:w-3/4" width="450"
+                            src="assets/FotoGit.png" alt="Raihan">
+                        <!-- overflow -->
+                        <!-- <span class="absolute -bottom-24 -z-10 left-1/2 -translate-x-1/2 -my-36 mx-auto">
                             <svg width="600" height="800" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#0090FF"
                                     d="M58.2,-24.7C63.3,-3.2,47,19.4,27.3,32.5C7.7,45.6,-15.2,49,-35.4,37.1C-55.6,25.2,-73.1,-2.1,-66.8,-25.4C-60.4,-48.6,-30.2,-67.8,-1.8,-67.2C26.6,-66.6,53.1,-46.3,58.2,-24.7Z"
                                     transform="translate(100 100)" />
                             </svg>
-                        </span>
+                        </span> -->
                     </div>
                 </div>
             </div>
@@ -74,7 +75,7 @@
     </section>
     <!-- Hero Img -->
     <!-- About  -->
-    <section id="about" class="pt-20 pb-3 md:pl-14 bg-sky-100 pl-6">
+    <section id="about" class="pt-20 pb-3 md:pl-14 bg-sky-100 pl-0">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 md:w-1/2 md:text-base lg:text-2xl">
@@ -159,15 +160,24 @@
                     </div>
                     <h4 class="font-semibold text-lg text-white">Online grocery store Dagangyuk Website</h4>
                     <p class="font-light text-base text-white">Dagangyuk is a website that I worked on to fulfill my
-                        final project in college </p>
+                        final project in college, i created this website with my 3 friends using CodeIgniter 4</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
                     <div class="rounded-xl shadow-md overflow-hidden">
-                        <img src="assets/Prakerla.png" alt="Prakerla" class="w-auto">
+                        <img src="assets/Screenshot (1033).png" alt="Prakerla" class="w-auto">
                     </div>
                     <h4 class="font-semibold text-lg text-white">Internship hiring website Prakerla</h4>
                     <p class="font-light text-base text-white">Prakerla is a website that I worked on to fulfill my
-                        final project in college </p>
+                        final project in college. I created this website using Bootstrap and some JS carrousel framework
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-xl shadow-md overflow-hidden">
+                        <img src="assets/Screenshot (1036).png" alt="Prakerla" class="w-auto">
+                    </div>
+                    <h4 class="font-semibold text-lg text-white">Movie review website RMovies</h4>
+                    <p class="font-light text-base text-white">Rmovies is a website that i worked on while internship. i
+                        love watching movies and this is where i rate them</p>
                 </div>
 
             </div>
@@ -183,8 +193,8 @@
             <H2 class="text-lg font-bold">Hubungi Saya</H2>
             <hr>
         </div>
-        <div id="email" class="flex items-center flex-wrap pt-1 pb-2 w-full px-12 md:text-xl">
-            <h4>Agustraihan@gmail.com</h4>
+        <div id="email" class="flex items-center flex-wrap pt-1 pb-3 w-full px-12 md:text-xl">
+            <h4 class="pb-5">Agustraihan@gmail.com</h4>
         </div>
     </div>
     <div class="w-full border-t border-blue-700"></div>
