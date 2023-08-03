@@ -526,9 +526,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 850px) {
+@media (min-width: px) {
   .container {
-    max-width: 850px;
+    max-width: px;
   }
 }
 
@@ -568,10 +568,6 @@ video {
 
 .left-1\/2 {
   left: 50%;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .right-4 {
@@ -686,8 +682,8 @@ video {
   width: 100%;
 }
 
-.max-w-\[250px\] {
-  max-width: 250px;
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .max-w-full {
@@ -729,10 +725,6 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .rounded-full {
@@ -866,10 +858,6 @@ video {
 
 .pr-0 {
   padding-right: 0px;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pt-0 {
@@ -1080,23 +1068,6 @@ video {
   }
 }
 
-@media (min-width: 850px) {
-  .sm\:right-0 {
-    right: 0px;
-  }
-
-  .sm\:scale-100 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-}
-
 @media (min-width: 960px) {
   .md\:right-0 {
     right: 0px;
@@ -1144,11 +1115,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:font-medium {
     font-weight: 500;
   }
@@ -1183,10 +1149,6 @@ video {
     max-width: 100%;
   }
 
-  .lg\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .lg\:max-w-lg {
     max-width: 32rem;
   }
@@ -1209,11 +1171,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:font-bold {
     font-weight: 700;
   }
@@ -1230,11 +1187,24 @@ video {
   }
 }
 
-@media (min-width: 1200px) {
-  .xl\:w-full {
-    width: 100%;
+@media (min-width: px) {
+  .sm\:right-0 {
+    right: 0px;
   }
 
+  .sm\:scale-100 {
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
   .xl\:max-w-xl {
     max-width: 36rem;
   }

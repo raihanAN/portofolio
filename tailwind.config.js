@@ -3,7 +3,7 @@ module.exports = {
   content: ["index.html"],
   theme: {
     screens: {
-      'sm': '850px',
+      'sm': 'px',
       // => @media (min-width: 576px) { ... }
 
       'md': '960px',
