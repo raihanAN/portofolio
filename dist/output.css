@@ -883,6 +883,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .pl-0 {
   padding-left: 0px;
 }
@@ -921,10 +925,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -1133,14 +1133,6 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .sm\:pb-3 {
-    padding-bottom: 0.75rem;
-  }
-
-  .sm\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1167,18 +1159,6 @@ video {
 
   .md\:pl-24 {
     padding-left: 6rem;
-  }
-
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:pb-3 {
-    padding-bottom: 0.75rem;
-  }
-
-  .md\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .md\:text-2xl {
@@ -1246,10 +1226,6 @@ video {
 
   .lg\:bg-transparent {
     background-color: transparent;
-  }
-
-  .lg\:pb-3 {
-    padding-bottom: 0.75rem;
   }
 
   .lg\:text-2xl {
