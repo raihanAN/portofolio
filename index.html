@@ -7,6 +7,72 @@
     <link href="dist/output.css" rel="stylesheet">
     <title>Muhammad Raihan Agust Nugroho</title>
     <link rel="icon" href="assets/logo.png" type="image/png">
+    <style>
+        .kontener {
+            height: 150vh;
+            font-size: 12px;
+            width: 40em;
+            height: 40em;
+            position: relative;
+        }
+
+        .earth,
+        .moon {
+            position: absolute;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+            border-width: 0.1em 0.1em 0 0;
+            border-radius: 50%;
+        }
+
+        .earth {
+            top: 5em;
+            bottom: 5em;
+            z-index: 1;
+            left: 5em;
+            width: 30em;
+            height: 30em;
+            animation: orbit 10.5s linear infinite;
+        }
+
+        .moon {
+            top: 0;
+            right: 0;
+            width: 8em;
+            height: 8em;
+            animation: orbit 2s linear infinite;
+        }
+
+        .earth::before,
+        .moon::before {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .earth::before {
+            top: 2.8em;
+            right: 2.8em;
+            width: 3em;
+            height: 3em;
+            background-color: aqua;
+        }
+
+        .moon::before {
+            top: 0.2em;
+            right: 0.8em;
+            width: 1.2em;
+            height: 1.2em;
+            background-color: blue;
+        }
+
+        @keyframes orbit {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    </style>
 </head>
 <!-- Navbar -->
 <header class="bg-transparent absolute top-0 left-0 w-full flex z-10">
@@ -61,7 +127,12 @@
                 </div>
                 <div class="w-full self-end px-4 md:w-1/2 md:right-0">
                     <div class="relative mt-10  sm:right-0">
-                        <img class="mx-auto max-w-full sm:scale-100" width="450" src="assets/FotoGit.png" alt="Raihan">
+                        <div class="kontener">
+                            <div class="earth">
+                                <div class="moon"></div>
+                            </div>
+                            <img class="mx-auto max-w-full sm:scale-100" src="assets/FotoGit.png" alt="Raihan">
+                        </div>
                         <!-- overflow -->
                         <!-- <span class="absolute -bottom-24 -z-10 left-1/2 -translate-x-1/2 -my-36 mx-auto">
                             <svg width="600" height="800" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +247,8 @@
                 </div>
                 <h4 class="font-semibold text-lg text-white">Internship hiring Prakerla
                     Website</h4>
-                <p class="font-light text-base text-white md:text-xl">Prakerla is a website that I worked on to fulfill
+                <p class="font-light text-base text-white md:text-xl">Prakerla is a website that I worked on to
+                    fulfill
                     my
                     final project in college. I created this website using Bootstrap and some JS carrousel framework
                 </p>
@@ -213,7 +285,8 @@
 
                 </div>
                 <h4 class="font-semibold text-lg text-white">(UI/UX) Case Study Rent a Music Studio</h4>
-                <p class="font-light text-base text-white md:text-xl">Rental Studio is my first study case about User
+                <p class="font-light text-base text-white md:text-xl">Rental Studio is my first study case about
+                    User
                     Experience. Rental Studio is an mobile App to book a music studio arround you</p>
             </div>
             </a>
@@ -223,7 +296,8 @@
 
                 </div>
                 <h4 class="font-semibold text-lg text-white">(UI/UX) Case Study Traineend</h4>
-                <p class="font-light text-base text-white md:text-xl">Traineend is a website for users specifically for
+                <p class="font-light text-base text-white md:text-xl">Traineend is a website for users specifically
+                    for
                     fresh graduate to find a training about a job specialist and technical specialist. </p>
             </div>
             </a>
@@ -234,7 +308,8 @@
 
                 </div>
                 <h4 class="font-semibold text-lg text-white">(UI/UX) Case Study perforwed</h4>
-                <p class="font-light text-base text-white md:text-xl">Mobile based app for hiring musician for wedding
+                <p class="font-light text-base text-white md:text-xl">Mobile based app for hiring musician for
+                    wedding
                     occasionally </p>
             </div>
         </div>
