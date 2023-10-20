@@ -5,6 +5,7 @@ window.onscroll = function () {
 
     if (window.pageYOffset > navfix) {
         header.classList.add('navbar-fixed');
+
     } else {
         header.classList.remove('navbar-fixed')
     }
