@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html", "Project.html", "Project2.html", "Project3.html", "UI1.html", "UI2.html"],
+  content: ["index.html", "Project.html", "Project2.html", "Project3.html", "UI1.html", "UI2.html", "uxproj.html", "Web.html", "flutter.html"],
   theme: {
     screens: {
       'sm': '850px',
