@@ -1332,6 +1332,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:font-bold {
     font-weight: 700;
   }
@@ -1359,5 +1364,20 @@ video {
 
   .xl\:max-w-xl {
     max-width: 36rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .\32xl\:max-w-2xl {
+    max-width: 42rem;
+  }
+
+  .\32xl\:max-w-screen-2xl {
+    max-width: 1400px;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
