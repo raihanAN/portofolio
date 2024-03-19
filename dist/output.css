@@ -648,10 +648,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.-mt-16 {
-  margin-top: -4rem;
-}
-
 .-mt-28 {
   margin-top: -7rem;
 }
@@ -1199,10 +1195,6 @@ video {
 @media (min-width: 850px) {
   .sm\:right-0 {
     right: 0px;
-  }
-
-  .sm\:-mt-16 {
-    margin-top: -4rem;
   }
 
   .sm\:scale-100 {
