@@ -526,6 +526,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 650px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
 @media (min-width: 850px) {
   .container {
     max-width: 850px;
@@ -544,15 +550,21 @@ video {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
   .container {
-    max-width: 1200px;
+    max-width: 1250px;
   }
 }
 
 @media (min-width: 1400px) {
   .container {
     max-width: 1400px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
   }
 }
 
@@ -1348,7 +1360,7 @@ video {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
   .xl\:h-\[580px\] {
     height: 580px;
   }
