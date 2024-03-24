@@ -1,9 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html", "Project.html", "Project2.html", "Project3.html", "UI1.html", "UI2.html", "uxproj.html", "Web.html", "flutter.html", "Flutter1", "Flutter2", "Flutter3", "Flutter4", "Flutter5", "Flutter6"],
+  content: ["index.html",
+    "Project.html",
+    "Project2.html",
+    "Project3.html",
+    "Project4.html",
+    "UI1.html",
+    "UI2.html",
+    "UI3.html",
+    "UI4.html",
+    "UI5.html",
+    "UI6.html",
+    "uxproj.html",
+    "Web.html",
+    "flutter.html",
+    "Flutter1",
+    "Flutter2",
+    "Flutter3",
+    "Flutter4",
+    "Flutter5",
+    "Flutter6",
+  ],
   theme: {
     screens: {
-      'xs': '650px',
+      'xs': '750px',
       'sm': '850px',
       // => @media (min-width: 576px) { ... }
 
