@@ -1387,10 +1387,6 @@ video {
   .xl\:pl-60 {
     padding-left: 15rem;
   }
-
-  .xl\:pl-52 {
-    padding-left: 13rem;
-  }
 }
 
 @media (min-width: 1400px) {
