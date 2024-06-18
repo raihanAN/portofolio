@@ -14,12 +14,12 @@ module.exports = {
     "uxproj.html",
     "Web.html",
     "flutter.html",
-    "Flutter1",
-    "Flutter2",
-    "Flutter3",
-    "Flutter4",
-    "Flutter5",
-    "Flutter6",
+    "Flutter1.html",
+    "Flutter2.html",
+    "Flutter3.html",
+    "Flutter4.html",
+    "Flutter5.html",
+    "Flutter6.html",
   ],
   theme: {
     screens: {
